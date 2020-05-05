@@ -3,7 +3,7 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 }
 body{
- background-color: #9cb8e4;   
+ background-color: #B5E196;   
 }
 
 .robots {
@@ -54,19 +54,23 @@ body{
 .left_arm { 
 	margin-right: 10px; 
 } 
-
+.left_arm:hover{
+    transform: rotate(20deg);
+}
 .right_arm { 
 	margin-left: 10px; 
 } 
+.right_arm:hover{
+    transform: rotate(-20deg);
+}
 
 .torso { 
 	width: 200px; 
 	height: 200px;
-    border-radius: 0 0 50px 50px; 
+    border-radius: 0  0 50px 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    text-emphasis-color: white;
 } 
 
 
@@ -99,11 +103,13 @@ body{
 .right_leg { 
 	margin-left: 30px; 
 }
-
+.right_leg:hover{
+    transform: rotate(-20deg);
+}
 .left_eye, .right_eye { 
 	width: 20px; 
 	height: 20px; 
-	border-radius: 15px; 
+	border-radius: 10px; 
 	background-color: white;  
 } 
 
